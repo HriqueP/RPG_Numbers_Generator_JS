@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <title>RPG Numbers Generator</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="infos">
+        Quantidade de Numeros:
+        <input type="text" class="inputs" id="qtdNums" /><br />
+        De: <input type="text" class="inputs" id="numInicial" /><br />
+        até: <input type="text" class="inputs" id="numFinal" /><br />
+
+        <button type="button" id="btnGerar" onclick="gerarNumeros()">
+          Gerar Numeros
+        </button>
+      </div>
+
+      <div id="resultados">
+        Resultados
+        <span id="result"></span>
+      </div>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
