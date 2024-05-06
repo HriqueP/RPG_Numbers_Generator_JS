@@ -3,7 +3,7 @@
 This is a application for board games, it can be used to generate multiple random numbers (acts as a d6, d12, d20)
 
 <div>
-  <img src="./assets/Exemple Image.png"/>
+  <img src="./assets/Example Image 1.png"/>
 </div>
 
 ### Technologies Used
